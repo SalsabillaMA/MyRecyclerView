@@ -12,7 +12,7 @@ public class AnimalsData {
                     "yang dikenal mempunyai \"ekor\" yang sangat pendek (bahasa Yunani: brachy = pendek, ura = ekor), " +
                     "atau yang perutnya (abdomen) sama sekali tersembunyi di bawah dada (thorax). Tubuh kepiting dilindungi oleh " +
                     "cangkang yang sangat keras, tersusun dari kitin, dan dipersenjatai dengan sepasang capit. Ketam adalah nama lain bagi kepiting.",
-                    "http://media.pixcove.com/N/3/6/Crab-Landscapes-Nature-Colorful-Amazon-Free-Image--6461.jpg"},
+                    "https://www.dictio.id/uploads/db3342/original/3X/d/a/dad354beb1e455b3a1c4bdf6177bb444cf762e45.jpg"},
 
             {"Kerang", "Kerang adalah hewan air yang termasuk hewan bertubuh lunak (moluska)." +
                     "Pengertian kerang bersifat umum dan tidak memiliki arti secara biologi namun " +
@@ -25,7 +25,7 @@ public class AnimalsData {
 
             {"Tiram", "Tiram adalah sekelompok kerang-kerangan dengan cangkang berkapur dan relatif pipih. Tiram sejati adalah semua " +
                     "bivalvia yang termasuk keluarga Ostreidae. " +
-                    "Namun, nama tiram dipakai pula untuk beberapa hewan lain di luar kelompok itu.", "http://www.ranamutiaralombok.com/image-upload/mutiara-alam.JPG"},
+                    "Namun, nama tiram dipakai pula untuk beberapa hewan lain di luar kelompok itu.", "https://akcdn.detik.net.id/visual/2018/12/26/27556588-b78c-4dcb-9198-0cbc64744b59_169.jpeg?w=650"},
 
             {"Udang", "Udang adalah binatang yang hidup di perairan, khususnya sungai, laut, atau danau. Udang dapat ditemukan di hampir semua \"genangan\" air yang " +
                     "berukuran besar baik air tawar, air payau, maupun air asin pada kedalaman bervariasi, dari dekat permukaan hingga beberapa ribu meter di bawah permukaan.",

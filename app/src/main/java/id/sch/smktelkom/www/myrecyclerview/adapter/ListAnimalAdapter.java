@@ -1,4 +1,4 @@
-package id.sch.smktelkom.www.myrecyclerview;
+package id.sch.smktelkom.www.myrecyclerview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -14,10 +14,17 @@ import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom.www.myrecyclerview.R;
 import id.sch.smktelkom.www.myrecyclerview.model.Animal;
 
 public class ListAnimalAdapter extends RecyclerView.Adapter<ListAnimalAdapter.ListViewHolder> {
     private ArrayList<Animal> listAnimal;
+    private OnItemClickCallback onItemClickCallback;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
+
 
     public ListAnimalAdapter(ArrayList<Animal> list) {
         this.listAnimal = list;
@@ -40,6 +47,13 @@ public class ListAnimalAdapter extends RecyclerView.Adapter<ListAnimalAdapter.Li
                 .into(holder.imgPhoto);
         holder.tvName.setText(animal.getName());
         holder.tvDetail.setText(animal.getDetail());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onItemClickCallback.onItemClicked(listAnimal.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -57,5 +71,9 @@ public class ListAnimalAdapter extends RecyclerView.Adapter<ListAnimalAdapter.Li
             tvName = itemView.findViewById(R.id.tv_item_name);
             tvDetail = itemView.findViewById(R.id.tv_item_detail);
         }
+    }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Animal data);
     }
 }

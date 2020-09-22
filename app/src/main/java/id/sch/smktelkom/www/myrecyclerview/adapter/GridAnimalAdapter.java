@@ -1,4 +1,4 @@
-package id.sch.smktelkom.www.myrecyclerview;
+package id.sch.smktelkom.www.myrecyclerview.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,10 +13,17 @@ import com.bumptech.glide.request.RequestOptions;
 
 import java.util.ArrayList;
 
+import id.sch.smktelkom.www.myrecyclerview.R;
 import id.sch.smktelkom.www.myrecyclerview.model.Animal;
 
 public class GridAnimalAdapter extends RecyclerView.Adapter<GridAnimalAdapter.GridViewHolder> {
     private ArrayList<Animal> listAnimal;
+    private OnItemClickCallback onItemClickCallback;
+
+    public void setOnItemClickCallback(OnItemClickCallback onItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback;
+    }
+
 
     public GridAnimalAdapter(ArrayList<Animal> list) {
         this.listAnimal = list;
@@ -37,7 +44,12 @@ public class GridAnimalAdapter extends RecyclerView.Adapter<GridAnimalAdapter.Gr
                 .load(animal.getPhoto())
                 .apply(new RequestOptions().override(350, 550))
                 .into(holder.imgPhoto);
-
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onItemClickCallback.onItemClicked(listAnimal.get(holder.getAdapterPosition()));
+            }
+        });
     }
 
     @Override
@@ -52,5 +64,9 @@ public class GridAnimalAdapter extends RecyclerView.Adapter<GridAnimalAdapter.Gr
             super(itemView);
             imgPhoto = itemView.findViewById(R.id.img_item_photo);
         }
+    }
+
+    public interface OnItemClickCallback {
+        void onItemClicked(Animal data);
     }
 }
