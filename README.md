@@ -45,7 +45,7 @@ Kelas [RecyclerView](https://google-developer-training.github.io/android-develop
 
 ![alt text](MyRecyclerView/tampilanlist.jpg)
 
-#### Terimakasih
+### Terimakasih
 
 # Salsabilla Maurettasya A
 
