@@ -50,8 +50,7 @@ public class AnimalsData {
             {"Lumba lumba", "Lumba-lumba adalah mamalia laut yang sangat cerdas, selain itu sistem alamiah yang melengkapi tubuhnya sangat kompleks. Sehingga banyak teknologi yang terinspirasi dari lumba-lumba. " +
                     "Salah satu contoh adalah kulit lumba-lumba yang mampu memperkecil gesekan dengan air, sehingga lumba-lumba dapat berenang dengan sedikit hambatan air. Hal ini yang digunakan para perenang " +
                     "untuk merancang baju renang yang mirip kulit lumba-lumba.", "https://asset.kompas.com/crops/aTR3s-hcMYMn_NuTZ0SVzrXzVdw=/88x0:1600x1008/750x500/data/photo/2019/08/02/5d440211863eb.png"},
-
-
+            
     };
 
 
