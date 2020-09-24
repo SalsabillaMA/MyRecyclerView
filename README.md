@@ -5,45 +5,45 @@ Hasil dari Modul MyRecyclerView
 
 - Masuk Aplikasi
 
-![alt text](MyRecyclerView/menu.png)
+![alt text](MyRecyclerView/menu.jpg)
 
 Terdapat titik 3 yang berisi menu
 
-![alt text](MyRecyclerView/option.png)
+![alt text](MyRecyclerView/option.jpg)
 
 Jika memilih menu List maka tampilan seperti ini :
 
-![alt text](MyRecyclerView/list.png)
+![alt text](MyRecyclerView/list.jpg)
 
 Pada List akan menampilkan Gambar, Nama, dan Detail
 
 Jika memilih salah satu menu akan muncul seperti ini :
 
-![alt text](MyRecyclerView/tampilanlist.png)
+![gambar1](MyRecyclerView/tampilanlist.jpg)
 
 Jika memilih menu Grid maka tampilan seperti ini :
 
-![alt text](MyRecyclerView/grid.png)
+![alt text](MyRecyclerView/grid.jpg)
 
 Pada Grid akan menampilkan gambar saja
 
 Jika memilih salah satu menu akan muncul seperti ini :
 
-![alt text](MyRecyclerView/tampilangrid.png)
+![alt text](MyRecyclerView/tampilangrid.jpg)
 
 Jika memilih menu Card dan View maka tampilan seperti ini :
 
-![alt text](MyRecyclerView/cardview.png)
+![alt text](MyRecyclerView/cardview.jpg)
 
 Sedangkan pada card view Gambar, dan informasi
 
 Jika memilih salah satu menu akan muncul seperti ini :
 
-![alt text](MyRecyclerView/tampilancardview.png)
+![alt text](MyRecyclerView/tampilancardview.jpg)
 
 Jika memilih salah satu menu akan muncul seperti ini :
 
-![alt text](MyRecyclerView/tampilanlist.png)
+![alt text](MyRecyclerView/tampilanlist.jpg)
 
 Terimakasih
 
